@@ -1,372 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap"
-      rel="stylesheet"
-    />
-    <title>TURNKEY REPAIR</title>
-  </head>
-
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>IC "Repair Design Project"</title>
+</head>
+<body>
     <header class="header">
-      <div class="container header-content">
-        <div class="logo">IC "Repair Design Project"</div>
-        <nav class="header__nav">
-          <ul class="header__navigation">
-            <li class="header__navigation-item"><a href="#">HOME</a></li>
-            <li class="header__navigation-item"><a href="#">PROJECTS</a></li>
-            <li class="header__navigation-item"><a href="#">MEASURMENT</a></li>
-            <li class="header__navigation-item"><a href="#">TEAM</a></li>
-            <li class="header__navigation-item"><a href="#">REVIEWS</a></li>
-            <li class="header__navigation-item"><a href="#">CONTACTS</a></li>
-          </ul>
-        </nav>
-        <a class="phone" href="”tel:+7 (928) 768-32-39”">+7 (928) 768-32-39</a>
-        <button class="button">Request to a call</button>
-      </div>
+        <div class="container">
+            <div class="wrapper">
+                <img src="img/logo.svg" alt="Логотип компании" class="logo">
+                <nav>
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
+                        <li class="menu-item"><a href="#projects" class="menu-link">Projects</a></li>
+                        <li class="menu-item"><a href="#features" class="menu-link">Measurement</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Team</a></li>
+                        <li class="menu-item"><a href="#reviews" class="menu-link">Reviews</a></li>
+                        <li class="menu-item"><a href="#contacts" class="menu-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:+79287683239" class="contact-link">+7 (928) 768-32-39</a>
+                <button class="button">Request a call</button>
+            </div>
+        </div>
     </header>
     <main>
-      <section class="hero">
-        <div class="container hero-container">
-          <h1 class="title">
-            Turnkey Repair in the <br />
-            city of <span>Rostov-on-Don</span>
-          </h1>
-          <p class="hero__description">
-            Get ready-made turnkey repairs on time <br />with work time saving
-            up to 45 days and 20% from<br />
-            cost of materials due to the organization of work
-          </p>
-          <button class="button button-hero">CALCULATE THE COST</button>
-          <button class="button sbmbutn">SUBMIT YOUR APPLICATION</button>
-        </div>
-        <div class="hero-overlay"></div>
-      </section>
-      <section class="parttwo">
-        <div class="container">
-          <ul class="apartments">
-            <li class="apartments__item">
-              <a class="apartments__link" href="#">Rostov-on-Don, Admiral</a>
-            </li>
-            <li class="apartments__item">
-              <a class="apartments__link" href="#">Sochi Thieves</a>
-            </li>
-            <li class="apartments__item">
-              <a class="apartments__link" href="#">Rostov-on-Don Patriotic</a>
-            </li>
-          </ul>
-
-          <div class="parttwo__info">
-            <div class="parttwo__info-left">
-              <h2 class="info__description">Completed <br />projects</h2>
-              <p class="info__title">
-                Only a small part of the work performed by our company is
-                presented<br />
-                on the site. For 14 years on in the construction <br />
-                market we have made happy more than 1000 families
-              </p>
-              <div class="completed-projects-info">
-                <div class="completed-projects-info__item">
-                  <h3>City:</h3>
-                  <p>
-                    Rostov-on-Don<br />
-                    LCD admiral
-                  </p>
+        <section class="hero">
+            <div class="container">
+                <div class="wrapper">
+                    <h1 class="title">Turnkey Repair in the city of <span>Rostov-on-Don</span></h1>
+                    <p class="text">Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work</p>
+                    <button class="button first-hero-button">CALCULATE THE COST</button>
+                    <button class="button second-hero-button">SUBMIT YOUR APPLICATION</button>
                 </div>
-                <div class="completed-projects-info__item">
-                  <h3>apartment area:</h3>
-                  <p>81 m2</p>
-                </div>
-                <div class="completed-projects-info__item">
-                  <h3>Repair time:</h3>
-                  <p>3.5 months</p>
-                </div>
-                <div class="completed-projects-info__item">
-                  <h3>Repair Cost:</h3>
-                  <p>Upon request</p>
-                </div>
-              </div>
-              <div class="arrowbox">
-                <a class="arrowbox__item" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="42"
-                    height="14"
-                    viewBox="0 0 42 14"
-                    fill="none"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M6.63807 13.2761L2.29917e-05 6.63808L6.63807 3.80641e-05L7.58563 0.947606L1.89516 6.63808L7.58563 12.3286L6.63807 13.2761Z"
-                      fill="white"
-                    />
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M0.947579 5.96828L41.4556 5.96829L41.4556 7.30835L0.947578 7.30834L0.947579 5.96828Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
-                <a class="arrowbox__item circle" href="#"></a>
-                <a class="arrowbox__item circle" href="#"></a>
-                <a class="arrowbox__item circle" href="#"></a>
-                <a class="arrowbox__item" href="#">
-                  <svg
-                    class="leftarrow"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="42"
-                    height="14"
-                    viewBox="0 0 42 14"
-                    fill="none"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M6.63807 13.2761L2.29917e-05 6.63808L6.63807 3.80641e-05L7.58563 0.947606L1.89516 6.63808L7.58563 12.3286L6.63807 13.2761Z"
-                      fill="white"
-                    />
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M0.947579 5.96828L41.4556 5.96829L41.4556 7.30835L0.947578 7.30834L0.947579 5.96828Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
-              </div>
             </div>
-
-            <img
-              class="parttwo__info-img"
-              src="https://grumich.github.io/module18/img/2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
-
-      <section class="sectiontree">
-        <div class="container">
-          <h3 class="sectiontree__title">online control</h3>
-
-          <div class="wrap__camera">
-            <div class="wrap__camera-irem"></div>
-            <svg
-              width="34"
-              height="29"
-              viewBox="0 0 34 29"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M32.8511 9.76553L8.73057 0.829306C8.42205 0.7153 8.07929 0.873058 7.96553 1.18182C7.96528 1.18207 7.96528 1.18232 7.96503 1.18257L5.29489 8.45071C5.18138 8.75948 5.33964 9.102 5.64841 9.2155H5.64891L8.44481 10.2421L7.82877 11.9204C7.71552 12.2292 7.87378 12.5712 8.18254 12.6847L13.7753 14.738L13.3643 15.8569C12.9908 16.8589 13.3393 17.987 14.2134 18.6032V21.6434H6.19744C5.80942 20.7564 5.01537 20.1123 4.06707 19.9158V18.6648C4.06707 18.3357 3.80056 18.069 3.47129 18.069H1.06941C0.740397 18.069 0.473633 18.3357 0.473633 18.6648V28.1965C0.473633 28.5258 0.740397 28.7923 1.06941 28.7923H3.47129C3.80056 28.7923 4.06707 28.5258 4.06707 28.1965V26.9457C5.01537 26.7489 5.80942 26.1051 6.19744 25.2178H14.2134V25.8136C14.2134 26.8007 15.0134 27.601 16.0005 27.601C16.9875 27.601 17.7878 26.8007 17.7878 25.8136V19.214C18.3293 18.9455 18.7476 18.4797 18.9561 17.9122L19.3671 16.7934L24.4004 18.6403C24.4662 18.6645 24.5354 18.6768 24.6054 18.6768C24.8552 18.6768 25.0787 18.521 25.1649 18.2865L25.3882 17.6782C27.3268 18.043 29.1939 16.7672 29.5584 14.8288C29.6932 14.1125 29.6057 13.3722 29.3077 12.7072L32.9191 10.8528C33.2119 10.7028 33.3276 10.3438 33.1776 10.051C33.1096 9.91804 32.9941 9.81553 32.8541 9.76378L32.8511 9.76553ZM15.4047 19.146L15.898 19.3248C16.1225 19.4053 16.358 19.4515 16.5962 19.4618V21.6434H15.4047V19.146ZM2.87576 27.601H1.6652V19.2605H2.87576V27.601ZM5.25864 24.0265C5.25764 24.7836 4.78061 25.4584 4.06707 25.7119V21.1496C4.78061 21.4029 5.25764 22.0777 5.25864 22.835V24.0265ZM6.4687 22.835H16.5962V24.0265H6.4687V22.835ZM16.0005 26.4094C15.6714 26.4094 15.4047 26.1426 15.4047 25.8136V25.2178H16.5962V25.8136C16.5962 26.1426 16.3295 26.4094 16.0005 26.4094ZM18.2488 16.3831L17.8378 17.5019C17.6108 18.119 16.9265 18.4355 16.309 18.209L15.1884 17.7985C14.5709 17.5717 14.2539 16.8872 14.4806 16.2694C14.4806 16.2694 14.4806 16.2694 14.4806 16.2691L14.8919 15.1511L17.9116 16.2596L18.2488 16.3831ZM24.2521 17.3184L9.15234 11.7736L9.56361 10.6548L18.5111 13.9405C18.7229 14.0175 18.9604 13.9693 19.1251 13.8152L20.797 12.2414L25.4842 13.963L24.2521 17.3184ZM28.2801 14.9901C27.9026 16.0079 26.8873 16.6439 25.807 16.5391L26.7275 14.0315L28.2311 13.2572C28.4664 13.8077 28.4839 14.4273 28.2801 14.9901ZM26.2693 12.9302C26.2377 12.9329 26.2065 12.9384 26.1757 12.9467L20.8642 10.9963C20.6525 10.9186 20.4149 10.9668 20.2504 11.1214L18.5766 12.6954L6.61871 8.3042L8.87733 2.15438L31.1675 10.4126L26.2693 12.9302Z"
-                fill="#E3B873"
-              />
-              <path
-                d="M12.1292 8.70337L11.6038 10.1233M14.419 9.5434L13.8935 10.9633M16.641 10.3699L16.1155 11.7898"
-                stroke="#E3B873"
-                stroke-linecap="round"
-              />
-            </svg>
-            <div class="wrap__camera-irem"></div>
-          </div>
-
-          <div class="wrap-online">
-            <div class="wrap-online__fon">
-              <!--Картинка-->
-              <svg
-                width="145"
-                height="145"
-                viewBox="0 0 145 145"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g filter="url(#filter0_d_1_11184)">
-                  <circle cx="72.5" cy="67.5" r="42.5" fill="#E3B873" />
-                </g>
-                <path d="M86 68L65 80.1244L65 55.8756L86 68Z" fill="white" />
-                <defs>
-                  <filter
-                    id="filter0_d_1_11184"
-                    x="0"
-                    y="0"
-                    width="145"
-                    height="145"
-                    filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
-                  >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feColorMatrix
-                      in="SourceAlpha"
-                      type="matrix"
-                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                      result="hardAlpha"
-                    />
-                    <feOffset dy="5" />
-                    <feGaussianBlur stdDeviation="15" />
-                    <feColorMatrix
-                      type="matrix"
-                      values="0 0 0 0 0.890196 0 0 0 0 0.721569 0 0 0 0 0.45098 0 0 0 0.2 0"
-                    />
-                    <feBlend
-                      mode="normal"
-                      in2="BackgroundImageFix"
-                      result="effect1_dropShadow_1_11184"
-                    />
-                    <feBlend
-                      mode="normal"
-                      in="SourceGraphic"
-                      in2="effect1_dropShadow_1_11184"
-                      result="shape"
-                    />
-                  </filter>
-                </defs>
-              </svg>
-              <div class="wrap-online__overlay"></div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="left-side">
+                        <h2 class="project-title">Completed projects</h2>
+                        <p class="project-text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
+                        <div class="slider-mobile">
+                            <img src="img/slider_mobile.jpg" alt="изображение интерьера" class="project-img">
+                            <button class="slider-left"></button>
+                            <button class="slider-right"></button>
+                        </div>
+                        <table class="project-table">
+                            <thead>
+                                <tr class="table-title">
+                                    <td>City:</td>
+                                    <td>apartment area:</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Rostov-on-Don<br> LCD admiral</td>
+                                    <td>81 m2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="project-table">
+                            <thead>
+                                <tr class="table-title">
+                                    <td>Repair time:</td>
+                                    <td>Repair Cost:</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>3.5 months</td>
+                                    <td>Upon request</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="slider-nav">
+                            <button class="nav-button nav-button-left"></button>
+                            <div class="slider-nav-wrap">
+                                <button class="nav-dots active"></button>
+                                <button class="nav-dots"></button>
+                                <button class="nav-dots"></button>
+                            </div>
+                            <button class="nav-button nav-button-right"></button>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <a href="#" class="project-link active">Rostov-on-Don, Admiral</a>
+                        <a href="#" class="project-link">Sochi Thieves</a>
+                        <a href="#" class="project-link">Rostov-on-Don Patriotic</a>
+                        <img src="img/project.jpg" alt="изображение интерьера" class="project-img">
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <p class="sectiontree__description">
-            At each facility, a camera is installed that broadcasts the progress
-            of work on the clock. At any time, you can go to our website and
-            monitor the progress of work in your apartment. You can watch the
-            live broadcast from one of our facilities! <br />Leave a request
-            below and you will receive a link to the broadcast.
-          </p>
-
-          <div class="wrap-form">
-            <form class="wrap-form__action" action="#">
-              <label >
-                Name<br />
-                <input type="text" placeholder="What is your name:" />
-              </label>
-              <label >
-                Phone<br />
-                <input type="text" placeholder="Your phone number:" />
-              </label>
-              <button class="button formsectree">Submit</button>
-            </form>
-          </div>
-
-          <div class="first-checkbox">
-            <label class="label">
-              <input type="checkbox" class="checkbox" />
-              <span class="fake"></span>
-              <span class="checkbox__text"
-                >I agree to the processing of personal data.</span
-              >
-            </label>
-          </div>
-        </div>
-      </section>
-      <section class="typesofrepair">
-        <div class="container">
-          <h3 class="sectiontree__title typesofrepair-color">
-            TYPES OF REPAIR
-          </h3>
-          <div class="wrap__camera">
-            <div class="wrap__camera-irem"></div>
-            <svg
-              width="28"
-              height="28"
-              viewBox="0 0 28 28"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M26.4056 21.1434C25.8241 20.7342 25.1529 20.5144 24.475 20.4785C21.92 18.8054 20.2463 17.5495 19.2692 16.5724L16.2675 13.5707L18.089 11.5318C18.4342 11.7267 18.805 11.8551 19.1759 11.908C19.4557 11.9546 19.6423 11.9546 19.8289 11.9546C20.2021 11.9546 20.2953 11.9546 20.6685 12.2811C20.4819 12.4211 20.3886 12.6543 20.3886 12.8875C20.3886 13.1207 20.4819 13.4006 20.6685 13.5871L22.301 15.2197C22.5342 15.4995 22.9073 15.6394 23.2805 15.6394C23.6537 15.6394 24.0268 15.4995 24.26 15.173L27.5717 11.8613C27.8516 11.6281 27.9915 11.255 27.9915 10.8818C27.9915 10.5087 27.8516 10.1822 27.5717 9.90232L25.9392 8.26979C25.7526 8.08324 25.5194 7.98993 25.2861 7.98993C25.0529 7.98993 24.8197 8.12986 24.6331 8.26979C24.26 7.94331 24.26 7.85 24.26 7.47684C24.26 7.29028 24.26 7.05705 24.1667 6.77719C24.0734 6.12416 23.7469 5.4712 23.2338 4.9581L21.5546 3.27894C20.5751 2.29944 20.1087 1.83302 18.8493 1.2733C16.144 0.013935 13.3921 0.24717 9.38073 2.06626C9.1475 2.15956 9.05424 2.34612 9.10087 2.57935C9.1475 2.81258 9.3341 2.95251 9.56728 2.95251H10.1736C12.2259 2.95251 13.2987 2.95251 15.1645 4.81823C15.9814 5.63518 16.005 6.88782 15.273 7.80944C15.1744 7.82431 15.0993 7.86859 15.0245 7.94331L12.9526 10.2559L11.3864 8.68963C9.66491 6.96817 8.45408 5.33946 7.52218 3.5259C7.47326 2.60821 7.10501 1.74961 6.44221 1.0868C5.64931 0.293904 4.52987 -0.0792603 3.41043 0.0140445C3.2705 0.0606695 3.13057 0.153974 3.08395 0.247279C2.99064 0.387209 2.99064 0.573763 3.08395 0.713693L4.38994 3.04587C4.11008 3.65222 3.45706 4.02538 2.80409 3.97876L1.45142 1.73983C1.40479 1.5999 1.21818 1.50659 1.07825 1.50659C0.938322 1.45997 0.798392 1.55322 0.705087 1.69315C-0.414351 3.3723 0.00543853 5.61118 1.6846 6.77724C2.26312 7.19047 2.91488 7.42026 3.57496 7.46738C3.58234 7.4705 3.58928 7.47432 3.59693 7.47689C5.41602 8.40977 7.04855 9.62246 8.77433 11.3483L10.4802 13.0154L0.565212 24.082C0.192048 24.4551 0.00549316 24.9682 0.00549316 25.4813C0.00549316 25.9944 0.192048 26.4608 0.565212 26.8339L1.21824 27.487C1.5914 27.8134 2.05781 28 2.52423 28C2.99064 28 3.50374 27.8135 3.8769 27.4403L13.7806 16.3546L16.6571 19.2311C17.6357 20.2097 18.8937 21.9332 20.5705 24.4481C20.6306 25.3458 20.998 26.1839 21.648 26.8339C22.3476 27.5336 23.2805 27.9067 24.26 27.9067C24.3999 27.9067 24.5399 27.9067 24.6332 27.9067C24.7731 27.9067 24.913 27.8134 25.0063 27.6735C25.0996 27.5336 25.0996 27.347 25.0063 27.2071L23.6537 24.9216C23.9802 24.3153 24.5866 23.9421 25.2862 23.9887L26.5922 26.2276C26.6388 26.3675 26.8254 26.4608 26.9654 26.4608C27.1519 26.4142 27.2918 26.3675 27.3851 26.2276C28.5045 24.5484 28.0381 22.3095 26.4056 21.1434ZM15.7709 4.07201C14.2783 2.62608 13.1589 2.15962 11.8995 2.01969C14.5582 1.18011 16.5172 1.22673 18.4762 2.11299C19.5957 2.57941 19.9688 2.95257 20.9483 3.93208L22.6275 5.61123C23.0006 5.9844 23.2338 6.45081 23.2805 6.91723C23.3271 7.15046 23.3271 7.33702 23.3271 7.47695C23.3271 7.99004 23.3738 8.36315 23.9335 8.92287C24.12 9.10942 24.3999 9.20273 24.6331 9.20273C24.913 9.20273 25.1462 9.10942 25.2861 8.92287L26.9187 10.5554C27.012 10.6487 27.0586 10.742 27.0586 10.8819C27.0586 11.0218 27.012 11.1151 26.9187 11.2084L23.607 14.5201C23.4204 14.7066 23.1406 14.7066 22.954 14.5201L21.3214 12.8875C21.508 12.7476 21.6013 12.5144 21.5547 12.2345C21.5547 12.0013 21.4614 11.7214 21.2748 11.5349C20.7151 10.9751 20.3419 10.9285 19.8289 10.9285C19.689 10.9285 19.5024 10.9285 19.2692 10.8819C18.7561 10.8353 18.3363 10.602 17.9632 10.2289L15.9575 8.22322C16.9836 6.96391 16.8904 5.19145 15.7709 4.07201ZM1.12493 2.95257L2.10444 4.63173C2.19774 4.77166 2.33767 4.86496 2.4776 4.86496H2.71084C3.78365 4.91159 4.76316 4.35187 5.22957 3.41904L5.32288 3.1858C5.41618 3.04587 5.41618 2.90594 5.32288 2.76601L4.29669 0.993553C4.85641 1.08686 5.3695 1.36672 5.78929 1.78651C6.27019 2.30747 6.57809 2.96634 6.59629 3.67408C6.58727 3.70999 6.58219 3.74864 6.58219 3.7922C6.58219 4.00822 6.55612 4.21893 6.50785 4.42205C6.3319 5.09743 5.90998 5.68628 5.32282 6.07776C4.38994 6.6841 3.13057 6.6841 2.19774 6.03113C1.21824 5.33137 0.798446 4.07201 1.12493 2.95257ZM9.42741 10.6953C8.02811 9.24941 6.62882 8.12997 5.13621 7.24371C5.36945 7.15041 5.64931 7.01048 5.88249 6.87055C6.58214 6.40413 7.04855 5.79773 7.32841 5.05146C8.21461 6.54406 9.33405 7.94336 10.7333 9.34266L12.3354 10.9447L11.0791 12.347L9.42741 10.6953ZM3.22388 26.7406C2.85071 27.1138 2.24437 27.1604 1.8712 26.7873L1.21818 26.1809C1.03163 25.9944 0.938322 25.7611 0.938322 25.5279C0.938322 25.248 1.03163 25.0148 1.26481 24.7816L1.52898 24.4861L2.19769 25.1548C2.29099 25.2481 2.38424 25.2947 2.52417 25.2947C2.6641 25.2947 2.75741 25.2481 2.85066 25.1548C3.03721 24.9682 3.03721 24.6884 2.85066 24.5018L2.14532 23.7964L2.76173 23.1068L3.50368 23.8487C3.59699 23.942 3.69024 23.9887 3.83017 23.9887C3.9701 23.9887 4.0634 23.942 4.15665 23.8487C4.34321 23.6622 4.34321 23.3823 4.15665 23.1957L3.37818 22.4172L15.3757 8.99415L17.3348 10.9532L15.4099 13.1067C15.3549 13.13 15.3063 13.1656 15.2578 13.2141L13.3921 15.313C13.3388 15.3663 13.3013 15.4273 13.2785 15.4914L3.22388 26.7406ZM14.4188 15.6401L15.6953 14.2113L18.7094 17.2254C19.549 18.1116 20.9949 19.231 23.0938 20.6303C22.814 20.7236 22.5341 20.8636 22.2543 21.0501C21.6756 21.4118 21.2657 21.914 20.9801 22.4691C20.9759 22.477 20.972 22.4851 20.9679 22.4931C20.951 22.5265 20.9344 22.5601 20.9184 22.5938C20.8954 22.6417 20.8735 22.69 20.8526 22.7389C20.8382 22.772 20.824 22.805 20.8105 22.8383C20.8086 22.8431 20.8067 22.848 20.8048 22.8528C20.7901 22.8893 20.7755 22.9258 20.7617 22.9625C20.4968 22.5739 20.2419 22.2072 19.9967 21.8618L20.6218 21.2367C20.8083 21.0502 20.8083 20.7703 20.6218 20.5837C20.4352 20.3972 20.1554 20.3972 19.9688 20.5837L19.4488 21.1037C19.255 20.8407 19.0677 20.5926 18.8872 20.3593L19.3158 19.9307C19.5023 19.7441 19.5023 19.4643 19.3158 19.2777C19.1292 19.0911 18.8494 19.0911 18.6628 19.2777L18.3067 19.6337C17.9639 19.2206 17.6477 18.8689 17.3568 18.578L14.4188 15.6401ZM26.9186 24.9682L25.9391 23.289C25.8458 23.1491 25.7059 23.0558 25.566 23.0558H25.3327C24.2599 22.9625 23.2804 23.5689 22.814 24.5017L22.7207 24.7349C22.6274 24.8749 22.6274 25.0148 22.7207 25.1547L23.7468 26.9272C23.1871 26.8339 22.674 26.554 22.2542 26.1342C21.7824 25.6231 21.4775 24.9793 21.4488 24.2869C21.4568 24.2528 21.4613 24.2162 21.4613 24.1752C21.4613 23.5843 21.6488 23.0311 21.9758 22.5625C22.1766 22.283 22.4279 22.0383 22.7206 21.8431C23.187 21.5166 23.7001 21.3767 24.2599 21.3767C24.8196 21.3767 25.3793 21.5632 25.8457 21.8898C26.8254 22.5894 27.2452 23.8487 26.9186 24.9682Z"
-                fill="#E3B873"
-              />
-            </svg>
-            <div class="wrap__camera-irem"></div>
-          </div>
-          <div class="wrap__typesofrepair">
-            <div class="wrap__typesofrepair-item">
-              <img src="img/4.jpg" alt="" />
-              <div class="wrap__typesofrepair-description">
-                <h3>Redecorating</h3>
-                <ul>
-                  <li>Dismantling of old coatings</li>
-                  <li>Wallpapering</li>
-                  <li>Painting walls and ceilings</li>
-                  <li>Laying flooring</li>
-                  <li>Replacing plumbing</li>
-                  <li>Replacing sockets and switches</li>
-                  <li>Replacing doors</li>
+        </section>
+        <section class="control">
+            <div class="container">
+                <h2 class="subtitle subtitle-white">online control</h2>
+                <div class="control-wrap">
+                    <img src="img/control.jpg" alt="наблюдение за ремонтом" class="control-img">
+                </div>
+                <p class="control-text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
+                <form action="post" class="control-form">
+                    <div class="form-wrapper">
+                        <label class="label">Name
+                            <input class="input" type="text" placeholder="What is your name:">
+                        </label>
+                        <label class="label">Phone
+                            <input class="input" type="tel" placeholder="Your phone number:">
+                        </label>
+                    </div>
+                    <input class="button" type="submit" value="Submit">
+                    <label class="wrapper-checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox" checked>
+                        <span class="checkbox"></span>
+                        <span class="check-text">I agree to the processing of personal data</span>
+                    </label>
+                </form>
+            </div>
+        </section>
+        <section class="repair">
+            <div class="container">
+                <h2 class="subtitle">Types of repair</h2>
+                <div class="cards">
+                    <div class="card-item card-repair-redecorating">
+                        <div class="card-wrap">
+                            <h3 class="card-title">Redecorating</h3>
+                            <ul>
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <span>from 900 rub / m2</span>
+                    </div>
+                    <div class="card-item card-repair-overhaul">
+                        <div class="card-wrap">
+                            <h3 class="card-title">Overhaul</h3>
+                            <ul>
+                                <li>Dismantling of old coatings</li>                
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <span>from 900 rub / m2</span>
+                    </div>
+                    <div class="card-item card-repair-designer">
+                        <div class="card-wrap">
+                            <h3 class="card-title">Designer Repair</h3>
+                            <ul>
+                                <li>Dismantling of old coatings</li>                      
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <span>from 900 rub / m2</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features" id="features">
+            <div class="container">
+                <div class="features-wrapper">
+                    <ul class="features-list">
+                        <li class="list-item list-item-first">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</li>
+                        <li class="list-item list-item-second">Free metering</li>
+                        <li class="list-item list-item-third">Free consultation</li>
+                        <li class="list-item list-item-fourth">Get a cost estimate and the timing of your future repairs</li>
+                    </ul>
+                    <form action="post" class="features-form">
+                        <p class="form-title">Leave a request for free departure of the measurer</p>
+                        <label for="name-features" class="label">Name</label>
+                        <input id="name-features" class="input" type="text" placeholder="What is your name:">
+                        <label for="phone-features" class="label">Phone</label>
+                        <input id="phone-features" class="input" type="tel" placeholder="Your phone number:">
+                        <label for="email-features" class="label">Email</label>
+                        <input id="email-features" class="input" type="email" placeholder="Your email">
+                        <label class="wrapper-checkbox">
+                            <input type="checkbox" name="checkbox" id="checkbox" checked>
+                            <span class="checkbox"></span>
+                            <span class="check-text">I agree to the processing of personal data</span>
+                        </label>
+                        <input class="button" type="submit" value="Call the measurer">
+                    </form>
+                </div>
+                <p class="feature-text">Help save 10 - 20% of the cost of materials</p>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <div class="left-side">
+                    <h2 class="project-title gallery-title">We realize your wildest fantasies</h2>
+                    <ul class="gallery-list">
+                        <li class="gallary-item"><a class="gallary-link active">American classic</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">Empire</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">Classical</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">Loft</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">Minimalism</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">Provence</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">Romanticism</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">Scandinavian style</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">Mediterranean style</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">High tech</a>
+                        </li>
+                        <li class="gallary-item"><a class="gallary-link">Eclecticism</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-side">
+                    <div class="img-left">
+                        <img src="img/gallery_1.jpg" alt="изображение шкафа с часами">
+                        <img src="img/gallery_2.jpg" alt="изображение комнаты с телевизором">
+                    </div>
+                    <div class="img-right">
+                        <img src="img/gallery_3.jpg" alt="изображение комнаты с диваном">
+                        <img src="img/gallery_4.jpg" alt="изображение комнаты со столом">
+                    </div>
+                </div>
+                <div class="slider-mobile">
+                    <img src="img/slider_gallery.jpg" alt="изображение интерьера" class="project-img">
+                    <button class="slider-left"></button>
+                    <button class="slider-right"></button>
+                </div>
+            </div>
+        </section>
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2 class="subtitle">our clients</h2>
+                <p class="reviews-descr">80% of our customers recommend us to their friends and family.</p>
+                <div class="reviews-wrapper">
+                    <div class="review-item">
+                        <div class="review-wrap">
+                            <img src="img/foto_1.png" alt="фотография клиента">
+                            <h3 class="review-title">Fedosova Maria Konstantinovna</h3>
+                            <p class="review-text">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach.<br><br>
+                                The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</p>
+                        </div>
+                        <div class="review-info">
+                            <span class="review-info-icon squere-icon">40 m2</span>
+                            <span class="review-info-icon time-icon">48 DAYS</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-wrap">
+                            <img src="img/foto_2.png" alt="фотография клиента">
+                            <h3 class="review-title">Afanasyev Sergey Alexandrovich</h3>
+                            <p class="review-text">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach.<br><br>
+                                The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</p>
+                        </div>
+                        <div class="review-info">
+                            <span class="review-info-icon squere-icon">40 m2</span>
+                            <span class="review-info-icon time-icon">48 DAYS</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-wrap">
+                            <img src="img/foto_3.png" alt="фотография клиента">
+                            <h3 class="review-title">Kiriev Egor Leonidovich</h3>
+                            <p class="review-text">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project to Georgia for its professionalism and approach.<br><br>
+                                The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</p>
+                        </div>
+                        <div class="review-info">
+                            <span class="review-info-icon squere-icon">40 m2</span>
+                            <span class="review-info-icon time-icon">48 DAYS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="question-wrap">
+                    <h2 class="subtitle subtitle-white">have any questions?</h2>
+                    <form action="post" class="question-form">
+                        <label class="label">Name
+                            <input class="input" type="text" placeholder="What is your name:">
+                        </label>
+                        <label class="label">Phone
+                            <input class="input" type="tel" placeholder="Your phone number:">
+                        </label>
+                        <label class="label label-question">Question
+                            <input class="input input-question" type="text" placeholder="I want to know:">
+                        </label>
+                        <label class="wrapper-checkbox">
+                            <input type="checkbox" name="checkbox" id="checkbox" checked>
+                            <span class="checkbox"></span>
+                            <span class="check-text">I agree to the processing of personal data</span>
+                        </label>
+                        <input class="button" type="submit" value="Submit">
+                    </form>
+                </div>
+                <img src="img/map.jpg" alt="Карта проезда" class="contacts-map">
+                <p class="contacts-info">
+                    Rostov-on-Don, Nansen St., 239 Shopping Center Decorum <a href="tel:+79287683229">Tel&#160;+7 (928) 768 32 29</a> 
+                </p>
+                <ul class="contacts-social">
+                    <li><a href="#"><svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="14" cy="14.3218" r="14" fill="#E3B873"/>
+                        <path d="M8.4 9.12158H19.6C20.37 9.12158 21 9.75158 21 10.5216V18.9216C21 19.6916 20.37 20.3216 19.6 20.3216H8.4C7.63 20.3216 7 19.6916 7 18.9216V10.5216C7 9.75158 7.63 9.12158 8.4 9.12158Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21 10.522L14 15.422L7 10.522" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></a></li>
+                    <li><a href="#">
+                        <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="14" cy="14.3218" r="14" fill="#E3B873"/>
+                            <path d="M17 8.72119H11C9.34316 8.72119 8.00001 10.0643 8.00001 11.7212V17.7212C8.00001 19.378 9.34316 20.7212 11 20.7212H17C18.6569 20.7212 20 19.378 20 17.7212V11.7212C20 10.0643 18.6569 8.72119 17 8.72119Z" stroke="white" stroke-width="1.5"/>
+                            <path d="M16.4 14.3434C16.4741 14.8427 16.3888 15.3527 16.1563 15.8008C15.9238 16.2489 15.5559 16.6122 15.105 16.8392C14.6541 17.0661 14.1431 17.1451 13.6447 17.0649C13.1463 16.9847 12.6859 16.7494 12.3289 16.3925C11.972 16.0355 11.7367 15.5751 11.6565 15.0767C11.5763 14.5783 11.6553 14.0673 11.8822 13.6164C12.1092 13.1655 12.4725 12.7976 12.9206 12.5651C13.3687 12.3326 13.8787 12.2473 14.378 12.3214C14.8874 12.3969 15.3589 12.6343 15.723 12.9984C16.0872 13.3625 16.3245 13.834 16.4 14.3434Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </a></li>
                 </ul>
-              </div>
-              <button class="button formsectree typesofrepair-button">
-                from 900 rub / m2
-              </button>
+                
             </div>
-            <div class="wrap__typesofrepair-item">
-              <img src="img/5.jpg" alt="" />
-              <div class="wrap__typesofrepair-description">
-                <h3>Overhaul</h3>
-                <ul>
-                  <li>Dismantling of old coatings</li>
-                  <li>Wallpapering</li>
-                  <li>Painting walls and ceilings</li>
-                  <li>Laying flooring</li>
-                  <li>Replacing plumbing</li>
-                  <li>Replacing sockets and switches</li>
-                  <li>Replacing doors</li>
-                </ul>
-              </div>
-              <button class="button formsectree typesofrepair-button">
-                from 1800 rub / m2
-              </button>
-            </div>
-            <div class="wrap__typesofrepair-item">
-              <img src="img/6.jpg" alt="" />
-              <div class="wrap__typesofrepair-description">
-                <h3>Designer Repair</h3>
-                <ul>
-                  <li>Dismantling of old coatings</li>
-                  <li>Wallpapering</li>
-                  <li>Painting walls and ceilings</li>
-                  <li>Laying flooring</li>
-                  <li>Replacing plumbing</li>
-                  <li>Replacing sockets and switches</li>
-                  <li>Replacing doors</li>
-                </ul>
-              </div>
-              <button class="button formsectree typesofrepair-button">
-                from 4000 rub / m2
-              </button>
-            </div>
-          </div>
-
-          <div class="wrap-masterform">
-            <div class="wrap-masterform__left-item">
-              <ul>
-                <li>
-                  <span>01</span> Our specialist will arrive for measurements
-                  per day<br />
-                  contact, or appoint a date convenient for you
-                </li>
-                <li><span>02</span> Free metering</li>
-                <li><span>03</span> Free consultation</li>
-                <li>
-                  <span>04</span> Get a cost estimate and <br />
-                  the timing of your future repairs
-                </li>
-              </ul>
-            </div>
-
-            <div class="wrap-masterform__item-right"></div>
-          </div>
-        </div>
-      </section>
+        </section>
     </main>
-  </body>
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper">
+                <img src="img/logo.svg" alt="Логотип компании" class="logo">
+                <nav>
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Projects</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Measurement</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Team</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Reviews</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:+79287683239" class="contact-link">+7 (928) 768-32-39</a>
+                <button class="button">Request a call</button>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
